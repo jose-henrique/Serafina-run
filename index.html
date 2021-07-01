@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raposo Run</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <img src="./public/creditsTest.jpg" alt="credits">
+            <div class="content-container">
+                <canvas id="game-canvas" width="800" height="400"></canvas>
+                <div class="musicContainer">
+                    <p>Sem música &#128553!</p>
+                    <label class="switch">
+                        <input id="toggleAudio" type="checkbox" onchange="toggleMute()">
+                        <span class="sliderRound"></span>
+                    </label>
+                    <p>Com música &#128515!!!</p>
+                </div>
+            </div>
+            <img src="./public/instructions.jpg" alt="instructions">
+        </div>
+
+        <script src="./game.js"></script>
+    </body>
+</html>
